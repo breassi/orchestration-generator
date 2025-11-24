@@ -6,3 +6,8 @@ O **Orchestration Generator** é uma ferramenta que automatiza a criação de es
 
 - **Linguagem principal:** Go  
 - **Por que da escolha:** Alta performance, baixo consumo de memória e concorrência nativa com goroutines, ideal para orquestração de serviços, pipelines e microserviços.
+
+## Arquitetura
+
+- **Arquitetura recomendada:** Microservices / Event-Driven Architecture (EDA)  
+- **Por que da escolha:** Orquestração de fluxos e pipelines se beneficia de serviços independentes, comunicação assíncrona e escalabilidade horizontal.
